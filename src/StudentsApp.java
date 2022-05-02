@@ -120,6 +120,7 @@ class Student{
         s += "name: " + this.getName() + "; ";
         s += "SSN: " + this.getSSN() + "; ";
         s += "userID: " + this.getUserID() + "; ";
+        s += "Balance: " + this.balance + "; ";
         s += "phone: " + this.getPhone() + "; ";
         s += "city: " + this.getCity() + "; ";
         s += "state: " + this.getState() + "]";
