@@ -82,6 +82,10 @@ class Student{
         return this.state;
     }
 
+    public double getBalance(){
+        return this.balance;
+    }
+
     //Setters
     public void setPhone(String phone){
         this.phone = phone;
@@ -120,7 +124,7 @@ class Student{
         s += "name: " + this.getName() + "; ";
         s += "SSN: " + this.getSSN() + "; ";
         s += "userID: " + this.getUserID() + "; ";
-        s += "Balance: " + this.balance + "; ";
+        s += "Balance: " + this.getBalance() + "; ";
         s += "phone: " + this.getPhone() + "; ";
         s += "city: " + this.getCity() + "; ";
         s += "state: " + this.getState() + "]";
